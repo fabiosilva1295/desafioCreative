@@ -1,0 +1,78 @@
+mat-sidenav-container{
+    background: #222831;
+    width: 230px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.user-logged{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.user-logged img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.user-logged .description-user {
+    width: 100%;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.user-logged .description-user p {
+    margin: 0;
+}
+.user-logged .description-user p:last-child {
+    font-size: 0.8rem;
+    color: rgb(190, 190, 190);
+}
+
+.menu-link{
+    margin-top: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.link {
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: #f0f0f0;
+    font-weight: 100;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.link.selected::before{
+    content: '';
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    background: #fafafa;
+    left:0;
+}
+
+.logout{
+    width: 100%;
+    height: 40px;
+    background: #f83253;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: #f0f0f0;
+}

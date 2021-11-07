@@ -1,0 +1,19 @@
+<mat-sidenav-container>
+    <mat-sidenav-content>
+        <div class="user-logged">
+            <img [src]="user.imgperfil" alt="usuário">
+            <div class="description-user">
+                <p>{{user.nome}}</p>
+                <p>{{user.materia}}</p>
+            </div>
+        </div>
+
+        <div class="menu-link">
+            <a href="#" class="link selected">Turmas</a>
+            <a href="#" class="link ">Meus Horarios</a>
+            <a href="#" class="link">Adicionar aluno</a>
+        </div>
+
+        <a class="logout "> SAIR </a>
+    </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,49 @@
+{
+    "prof": [
+        {
+            "id": 1,
+            "nome": "Gabriela Alves",
+            "senha": "admin",
+            "cpf": "43379495859",
+            "email": "gabriela@educacao.com.br",
+            "turma": ["a", "c", "f"],
+            "materia": "Historia",
+            "imgperfil": "https://uploaddeimagens.com.br/images/003/521/308/full/professor-home-professora-ensino-fundamental-ano-educacao-jovens-adultos-aulas-webcan.jpg?1636060973"
+        }
+    ], 
+
+    "alunos": [
+        {
+            "id": 1,
+            "nome": "Fábio Francisco",
+            "senha": "43379495859",
+            "cpf": "43379495859",
+            "email": "fabio@aluno.com.br",
+            "turma": "a"
+        },
+        {
+            "id": 2,
+            "nome": "Matheus Oliveira",
+            "senha": "43379495859",
+            "cpf": "43379495859",
+            "email": "fabio@aluno.com.br",
+            "turma": "a"
+        },
+        {
+            "id": 3,
+            "nome": "Amanda Martins",
+            "senha": "43379495859",
+            "cpf": "43379495859",
+            "email": "fabio@aluno.com.br",
+            "turma": "a"
+        },
+        {
+            "id": 4,
+            "nome": "Diego Silva",
+            "senha": "43379495859",
+            "cpf": "43379495859",
+            "email": "fabio@aluno.com.br",
+            "turma": "a"
+        }
+    ]
+}
