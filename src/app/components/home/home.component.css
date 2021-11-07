@@ -2,6 +2,33 @@
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 2rem;
+}
+
+.search{
+    width: 50%;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    padding: 0 1rem;
+    background: #fff;
+}
+
+.search input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0.5rem;  
+    font-size: 1.1rem;  
+    color: rgba(51, 51, 51, 0.822);
+}
+
+.container-turmas{
+    width: 100%;
+    height: 100%;
+    padding: 3rem 2rem;
 }
