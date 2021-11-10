@@ -1,13 +1,29 @@
 <div class="container">
     <app-sidenav></app-sidenav>
     <section class="home">
-        <div class="search">
-            <mat-icon>search</mat-icon>
-            <input placeholder="Pesquisar por uma turma" type="text" name="pesquisa" >
+        <div class="search-info">
+
+            <div class="left">
+                <div class="back-button">
+                    <mat-icon>arrow_back</mat-icon>
+                </div>
+                <div class="history-navigation">
+                    Turmas
+                    <mat-icon>arrow_right</mat-icon>
+                </div>
+            </div>
+
+           <div class="search">
+                <mat-icon>search</mat-icon>
+                <input placeholder="Pesquisar..." type="text" name="pesquisa" >
+           </div>
         </div>
 
         <div class="container-turmas">
-            
+            <div class="turma" *ngFor="let turma of user.turma">
+                <mat-icon>{{turma.icon}}</mat-icon>
+                <p>{{turma.nome}}</p>
+            </div>
         </div>
     </section>
 </div>

@@ -6,8 +6,8 @@
             "senha": "admin",
             "cpf": "43379495859",
             "email": "gabriela@educacao.com.br",
-            "turma": ["a", "c", "f"],
-            "materia": "Historia",
+            "turma": [{"nome": "Manhã", "icon": "wb_sunny"}, {"nome": "Tarde", "icon": "cloud"},{"nome": "Noite", "icon": "tonality"}],
+            "materia": "Professora",
             "imgperfil": "https://uploaddeimagens.com.br/images/003/521/308/full/professor-home-professora-ensino-fundamental-ano-educacao-jovens-adultos-aulas-webcan.jpg?1636060973"
         }
     ], 

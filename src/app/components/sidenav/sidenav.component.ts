@@ -10,13 +10,12 @@ import { GetProfService } from 'src/app/services/get-prof/get-prof.service';
 export class SidenavComponent implements OnInit {
   public user: Professor = {}
 
-  constructor(private getProfService: GetProfService) { }
+  constructor(public getProfService: GetProfService) { }
 
   ngOnInit(): void {
 
     this.getProfService.getProf().subscribe((response: any) => {
       this.user = response[0]
-      console.log(this.user.imgperfil)
     })
 
   }

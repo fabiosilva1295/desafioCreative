@@ -6,14 +6,15 @@
                 <p>{{user.nome}}</p>
                 <p>{{user.materia}}</p>
             </div>
+            <a href="">Ver perfil</a>
         </div>
 
         <div class="menu-link">
-            <a href="#" class="link selected">Turmas</a>
-            <a href="#" class="link ">Meus Horarios</a>
-            <a href="#" class="link">Adicionar aluno</a>
+            <a routerLink="/" routerLinkActive="selected" class="link"> <mat-icon>class</mat-icon> Turmas</a>
+            <a routerLink="/hoarios" routerLinkActive="selected" class="link "> <mat-icon>watch_later</mat-icon> Meus Horarios</a>
+            <a routerLink="/addAluno" routerLinkActive="selected" class="link"> <mat-icon>person_add</mat-icon> Adicionar aluno</a>
         </div>
 
-        <a class="logout "> SAIR </a>
+        <a class="logout ">SAIR</a>
     </mat-sidenav-content>
 </mat-sidenav-container>
